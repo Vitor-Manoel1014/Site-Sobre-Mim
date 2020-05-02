@@ -1,0 +1,125 @@
+@charset "UTF-8";
+ /* PRINCIPAL */
+p {
+    text-indent: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    text-align: justify;
+}
+
+section#principal a {
+    color: black;
+    background-color: #3a08f1;
+    text-decoration: none;
+}
+
+section#principal a:hover {
+    color: #3a08f1;
+    background-color: black;
+    transition: 0.4s;
+    padding: 2px;
+}
+
+div#corpo {
+    background-image: url(../_fotos/plano-de-fundo-div.jpg);
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    background-color: white;
+}
+
+/* FOTO */
+figure#foto img {
+    position: absolute;
+    left: 975px;
+    top: 70px;
+    width: 150px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+/* MENU DE NAVEGAÇÃO */
+nav#menu {
+    display: block;
+}
+
+nav#menu ul{
+	list-style: none;
+	position: absolute;
+	top: -10px;
+	left: 400px;
+}
+
+nav#menu li{
+    font-size: 16pt;
+	display: inline-block;
+	background-color: #3a08f1;
+    padding: 10px;
+    margin: 2px;
+}
+
+nav#menu li:hover {
+    background-color: red;
+    transition: 0.4s;
+}
+
+nav#menu a {
+    text-decoration: none;
+    color: black;
+}
+
+nav#menu a:hover {
+    color: darkorange;
+}
+
+/* CABEÇALHO */
+header#cabecalho {
+    padding: 20px;
+    border-bottom: 1px solid black;
+}
+
+/* PRINCIPAL E LATERAL */
+section#principal {
+    display: block;
+    float: left;
+    width: 450px;
+    padding: 20px;
+    border-right: 1px solid black;
+}
+
+aside#lateral {
+    display: block;
+    float: right;
+    width: 470px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+/* RODAPÉ */
+footer#rodape p {
+    padding-top: 15px;
+    text-align: center;
+    font-size: 16pt;
+    clear: both;
+    border-top: 1px solid black;
+}
+
+footer#rodape a {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+footer#rodape a:hover {
+    padding: 10px;
+    transition: 0.4s;
+    font-size: 20pt;
+}
+
+footer#rodape a:active {
+    color: black;
+    transition: 0.1s;
+    background-color: white;
+}
